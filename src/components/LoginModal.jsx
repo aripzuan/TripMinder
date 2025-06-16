@@ -26,7 +26,7 @@ export default function LoginModal({ show, onHide }) {
         setError('Invalid username or password');
       }
     } catch (err) {
-      setError('An error occurred. Please try again.');
+      setError(`An error occurred: ${err.message || 'Please try again.'}`);
     } finally {
       setIsLoading(false);
     }
