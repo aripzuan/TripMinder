@@ -35,7 +35,7 @@ export default function LoginModal({ show, onHide }) {
   return (
     <Modal show={show} onHide={onHide} centered>
       <Modal.Header closeButton>
-        <Modal.Title>Login to TripMate</Modal.Title>
+        <Modal.Title>Login to TripMinder</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Form onSubmit={handleSubmit}>
